@@ -551,8 +551,8 @@ class GoogleDriveHelper:
 
             for content in self.telegraph_content :
                 self.path.append(Telegraph(access_token=telegraph_token).create_page(
-                                                        title = 'Vega Cloud Mirror Bot Search',
-                                                        author_name='Vega Cloud Mirror Bot',
+                                                        title = 'Vega Cloud Clone, Youtube, Mirror Bot Search',
+                                                        author_name='Vega Cloud Clone, Youtube, Mirror Bot',
                                                         author_url='https://t.me/VegaCloud',
                                                         html_content=content
                                                         )['path'])
