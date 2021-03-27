@@ -43,7 +43,7 @@ def stats(update, context):
             f'<b>├ ⛏️RAM:</b> {memory}% \n' \
             f'<b>├ 🗄️Disk:</b> {disk}% \n' \
             f'<b>│</b>\n' \
-            f'<b>╰─────────「 VegaCloudBot 」</b>' \
+            f'<b>╰─────────「 VegaCloudBot 」</b>' 
     sendMessage(stats, context.bot, update)
 
 
