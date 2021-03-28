@@ -14,7 +14,7 @@ class _BotCommands:
         self.RestartCommand = 'restartt4'
         self.StatsCommand = 'statst4'
         self.HelpCommand = 't4help'
-        self.LogCommand = 'lt4'
+        self.LogCommand = 'logt4'
         self.SpeedCommand = 'stt4'
         self.CloneCommand = "clonet4"
         self.WatchCommand = 'twatcht4'
