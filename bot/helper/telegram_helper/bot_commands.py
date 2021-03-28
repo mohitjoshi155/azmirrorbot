@@ -17,7 +17,7 @@ class _BotCommands:
         self.LogCommand = 'logt4'
         self.SpeedCommand = 'stt4'
         self.CloneCommand = "clonet4"
-        self.WatchCommand = 'twatcht4'
+        self.WatchCommand = 'watcht4'
         self.TarWatchCommand = 'tarwatcht4'
         self.DeleteCommand = 'del'
 
