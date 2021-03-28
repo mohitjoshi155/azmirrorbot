@@ -11,14 +11,14 @@ class _BotCommands:
         self.AuthorizeCommand = 't4authorize'
         self.UnAuthorizeCommand = 't4unauthorize'
         self.PingCommand = 't4ping'
-        self.RestartCommand = 't4restart'
+        self.RestartCommand = 'restartt4'
         self.StatsCommand = 'statst4'
         self.HelpCommand = 't4help'
         self.LogCommand = 'lt4'
         self.SpeedCommand = 'stt4'
-        self.CloneCommand = "clone"
-        self.WatchCommand = 'twatch'
-        self.TarWatchCommand = 'tarwatch'
+        self.CloneCommand = "clonet4"
+        self.WatchCommand = 'twatcht4'
+        self.TarWatchCommand = 'tarwatcht4'
         self.DeleteCommand = 'del'
 
 BotCommands = _BotCommands()
