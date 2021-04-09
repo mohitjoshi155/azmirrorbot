@@ -52,7 +52,7 @@ def start(update, context):
 Hi, I'm pryo, mega bot at currently working @VegaCloud
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
-    update.effective_message.reply_photo("https://telegra.ph", start_string, parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_photo("https://telegra.ph/file/d867aed1fa6accc03288e.jpg", start_string, parse_mode=ParseMode.MARKDOWN)
 
 
 @run_async
