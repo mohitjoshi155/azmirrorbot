@@ -85,9 +85,9 @@ class AriaDownloadHelper(DownloadHelper):
 
     def add_download(self, link: str, path,listener):
         if is_magnet(link):
-            download = aria2.add_magnet(link, {'dir': path})
+            download = aria2.add_magnet(link, {'dir': path, 'out': filename})
         else:
-            download = aria2.add_uris([link], {'dir': path})
+            download = aria2.add_uris([link], {'dir': path, 'out': filename})
         if download.error_message:  # no need to proceed further at this point
             listener.onDownloadError(download.error_message)
             return
