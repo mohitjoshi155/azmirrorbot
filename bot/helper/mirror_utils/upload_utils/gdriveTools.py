@@ -253,7 +253,7 @@ class GoogleDriveHelper:
             finally:
                 self.updater.cancel()
         LOGGER.info(download_dict)
-        self.__listener.onUploadComplete(link)
+        self.__listener.onUploadComplete(link, size)
         LOGGER.info("Deleting downloaded file/folder..")
         return link
 
