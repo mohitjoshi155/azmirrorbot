@@ -143,7 +143,7 @@ class MirrorListener(listeners.MirrorListeners):
                   f'\n' \
                   f'📍 𝐃𝐨 𝐍𝐨𝐭 𝐒𝐡𝐚𝐫𝐞 𝐆-𝐃𝐫𝐢𝐯𝐞 / 𝐈𝐧𝐝𝐞𝐱 𝐋𝐢𝐧𝐤𝐬 𝐎𝐮𝐭𝐬𝐢𝐝𝐞 𝐭𝐡𝐞 𝐆𝐫𝐨𝐮𝐩. \n' \
                   f'\n' \
-                  f'☁️ Join AZ_AT_Bots ➞ @AZMirrorBot\n'
+                  f'☁️ Join AZ_AT_Bots ➞ @AZ_AT_Bots\n'
             buttons = button_build.ButtonMaker()
             if SHORTENER is not None and SHORTENER_API is not None:
                 surl = requests.get('https://{}/api?api={}&url={}&format=text'.format(SHORTENER, SHORTENER_API, link)).text
